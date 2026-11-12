@@ -5,4 +5,6 @@ const cliente = {
     email: "andre@dominio.com",
 };
 
-console.log(cliente);
+console.log(`O nome do cliente é ${cliente.nome} e essa pessoa tem ${
+    cliente.idade
+} anos.`);
